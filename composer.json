@@ -1,0 +1,30 @@
+{
+  "name": "bf16/sdk",
+  "description": "Official zero-dependency PHP SDK for bf16.ai — uncensored 1M-context LLM inference API with prompt caching and strict Zero Data Retention.",
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://bf16.ai",
+  "keywords": ["bf16", "llm", "ai", "openai-compatible", "anthropic", "deepseek", "glm", "kimi"],
+  "authors": [
+    {
+      "name": "BF16 Team",
+      "email": "hello@bf16.ai",
+      "homepage": "https://bf16.ai"
+    }
+  ],
+  "support": {
+    "docs": "https://bf16.ai/docs",
+    "source": "https://github.com/BF16-AI/bf16-php",
+    "email": "hello@bf16.ai"
+  },
+  "require": {
+    "php": ">=8.1",
+    "ext-json": "*",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bf16\\": "src/"
+    }
+  }
+}
